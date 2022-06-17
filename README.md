@@ -3,7 +3,7 @@
 A simple dice game using vanilla js based on luck
 
 Available on github pages
-https://sinamh.github.io/smjs--dicegame/
+https://sinamh.github.io/js-dicegame/
 
 first to 100 wins\
 if you get 1 score resets\
