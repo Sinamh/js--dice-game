@@ -1,4 +1,4 @@
-# mhdnjs-dice_game
+# js-dicegame
 
 A simple dice game using vanilla js based on luck
 
