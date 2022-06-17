@@ -1,9 +1,9 @@
-# js-dicegame
+# js--dice-game
 
 A simple dice game using vanilla js based on luck
 
 Available on github pages
-https://sinamh.github.io/js-dicegame/
+https://sinamh.github.io/js--dice-game/
 
 first to 100 wins\
 if you get 1 score resets\
