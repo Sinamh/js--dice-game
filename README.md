@@ -2,7 +2,7 @@
 
 A simple dice game using vanilla js based on luck
 
-Available on github pages\
+Available on netlify\
 https://mhdn-lucky-dice-game.netlify.app
 
 first to 100 wins\
