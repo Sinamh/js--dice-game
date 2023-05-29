@@ -2,8 +2,8 @@
 
 A simple dice game using vanilla js based on luck
 
-Available on netlify\
-https://mhdn-lucky-dice-game.netlify.app
+Github Pages \
+[https://mhdn-lucky-dice-game.netlify.app](https://sinamhdn.github.io/js-lucky-dice-game/)
 
 first to 100 wins\
 if you get 1 score resets\
