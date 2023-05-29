@@ -8,6 +8,18 @@
     <title>Dice Game</title>
   </head>
   <body>
+    <div class="hint-wrapper">
+      <div class="hint">
+        <button class="hint-close">X</button>
+        <h2>Random Dice Game</h2>
+        <p>
+          Player 1 clicks Roll button to get highest score
+          Once Player 1 is satisfied with the score clicks Hold button to hold the score and turn switches to Player 2
+          Player 2 will do the same until one Player reaches 100 score and win
+          if any player gets 1 while rolling that players score will reset to 0
+        </p>
+      </div>
+    </div>
     <main>
       <section class="player player--0 player--active">
         <h2 class="name" id="name--0">Player 1</h2>
@@ -25,11 +37,10 @@
           <p class="current-score" id="current--1">0</p>
         </div>
       </section>
-
       <img src="dice-5.png" alt="Playing dice" class="dice" />
-      <button class="btn btn--new">🔄 New game</button>
-      <button class="btn btn--roll">🎲 Roll dice</button>
-      <button class="btn btn--hold">📥 Hold</button>
+      <button class="btn btn--new">New</button>
+      <button class="btn btn--roll">Roll</button>
+      <button class="btn btn--hold">Hold</button>
     </main>
     <script src="script.js"></script>
   </body>

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap");
 
 * {
   margin: 0;
@@ -12,11 +13,11 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Chakra Petch", sans-serif;
   font-weight: 400;
   height: 100vh;
   color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  background-image: linear-gradient(to top left, #eb4d4b 0%, #f0932b 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -59,7 +60,7 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #4834d4;
   margin-bottom: auto;
 }
 
@@ -78,9 +79,9 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #4834d4;
   opacity: 0.8;
-  border-radius: 9px;
+  border-radius: 5px;
   color: #fff;
   width: 65%;
   padding: 2rem;
@@ -126,7 +127,7 @@ main {
 .btn::first-letter {
   font-size: 2.4rem;
   display: inline-block;
-  margin-right: 0.7rem;
+  margin-right: 0.1rem;
 }
 
 .btn--new {
@@ -163,5 +164,49 @@ main {
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #4834d4;
+}
+
+.hint-wrapper {
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  background: rgba(255, 255, 255, 50%);
+}
+
+.hint {
+  position: absolute;
+  width: 45vw;
+  z-index: 2;
+  background: #eb4d4b;
+  color: white;
+  padding: 1.1rem;
+  border-radius: 5px;
+  left: 28%;
+  top: 30%;
+  opacity: 100% !important;
+  transition: display 2s;
+}
+
+.hint h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.hint p {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.hint-close {
+  color: white;
+  background: none;
+  border: none;
+  position: absolute;
+}
+
+.hint-close:hover {
+  opacity: 65%;
+  cursor: pointer;
 }
