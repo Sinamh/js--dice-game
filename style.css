@@ -148,6 +148,10 @@ main {
   outline: none;
 }
 
+.btn:hover {
+  border: 1px solid #444;
+}
+
 .dice {
   position: absolute;
   left: 50%;
@@ -176,13 +180,13 @@ main {
 
 .hint {
   position: absolute;
-  width: 45vw;
+  width: 35vw;
   z-index: 2;
-  background: #eb4d4b;
+  background: #30a2ff;
   color: white;
   padding: 1.1rem;
   border-radius: 5px;
-  left: 28%;
+  left: 32.5%;
   top: 30%;
   opacity: 100% !important;
   transition: display 2s;
