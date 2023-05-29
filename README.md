@@ -1,4 +1,4 @@
-# lucky-dice-game
+# Lucky Dice Game
 
 A simple dice game using vanilla js based on luck
 
